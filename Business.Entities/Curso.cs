@@ -6,12 +6,38 @@ using System.Threading.Tasks;
 
 namespace Business.Entities
 {
-    public class Curso:BusinessEntity
+    public class Curso : BusinessEntity
     {
-        public int anioCalendario { get; set; }
-        public int cupo { get; set; }
-        public string descripcion { get; set; }
-        public int idComision { get; set; }
-        public int idMateria { get; set; }
+        private int idComision;
+        private int idMateria;
+        private int cupo;
+        private int anioCalendario;
+        private string descripcion;
+
+        public int AnioCalendario
+        {
+            get { return anioCalendario; }
+            set { anioCalendario = value; }
+        }
+        public int Cupo
+        {
+            get { return cupo; }
+            set { cupo = value; }
+        }
+        public string Descripcion
+        {
+            get { return descripcion; }
+            set { descripcion = value; }
+        }
+        public int IdComision
+        {
+            get { return idComision; }
+            set { idComision = value; }
+        }
+        public int IdMateria
+        {
+            get { return idMateria ; }
+            set { idMateria = value; }
+        }
     }
 }
