@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace Business.Entities
 {
-    public class Especialidad:BusinessEntity
+    public class Especialidad : BusinessEntity
     {
-        public string descripcion { get; set; }
+        private string descripcion;
 
+        public string Descripcion
+        {
+            get { return descripcion; }
+            set { descripcion = value; }
+        }
     }
 }

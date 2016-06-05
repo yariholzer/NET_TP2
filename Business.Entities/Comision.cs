@@ -6,13 +6,25 @@ using System.Threading.Tasks;
 
 namespace Business.Entities
 {
-    public class Comision:BusinessEntity
+    public class Comision : BusinessEntity
     {
-        public int anioEspecialidad { get; set; }
-        public int idPlan { get; set; }
-        public string descripcion { get; set; }
-        
-
-        
+        private int anioEspecialidad;
+        private string descripcion;
+        private int idPlan;
+        public int AnioEspecialidad
+        {
+            get { return anioEspecialidad; }
+            set { anioEspecialidad = value; }
+        }
+        public int IdPlan
+        {
+            get { return idPlan; }
+            set { idPlan = value; }
+        }
+        public string Descripcion
+        {
+            get { return descripcion; }
+            set { descripcion = value; }
+        }        
     }
 }
