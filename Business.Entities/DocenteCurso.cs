@@ -6,13 +6,22 @@ using System.Threading.Tasks;
 
 namespace Business.Entities
 {
-    public class DocenteCurso:BusinessEntity
+    public class DocenteCurso : BusinessEntity
     {
-        public TiposCargos cargo { get; set; }
-        public int idCurso { get; set; }
+        private int idCurso;
+        private int idDocente;
+        //private TiposCargos cargo;  la clase "TiposCargos" no esta en en diagrama tampoco"
 
-        public int idDocente { get; set; }
-
-        
+        //public TiposCargos cargo { get; set; }
+        public int IdCurso
+        {
+            get { return IdCurso; }
+            set { IdCurso = value; }
+        }
+        public int IdDocente
+        {
+            get { return idDocente; }
+            set { idDocente = value; }
+        }       
     }
 }
