@@ -8,13 +8,14 @@ namespace Business.Entities
 {
     public class BusinessEntity
     {
-        private int id;
+        public int ID { get; set; }
+        public States State { get; set; }
 
         public BusinessEntity()
         {
-            this.state = States.New;
+            this.State = States.New;
         }
-        public States state { get; set; }
+        
         public enum States
         {
             Deleted,

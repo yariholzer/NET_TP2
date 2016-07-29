@@ -1,3 +1,17 @@
 E:\Alumnos\TP2\TP2\UI.Desktop\bin\Debug\UI.Desktop.exe.config
 E:\Alumnos\TP2\TP2Lab02\TP2\UI.Desktop\bin\Debug\UI.Desktop.exe.config
 D:\Documentos\GitHub\NET_TP2\UI.Desktop\bin\Debug\UI.Desktop.exe.config
+D:\Mis documentos\GitHub\NET_TP2\UI.Desktop\bin\Debug\UI.Desktop.exe.config
+D:\Mis documentos\GitHub\NET_TP2\UI.Desktop\bin\Debug\UI.Desktop.exe
+D:\Mis documentos\GitHub\NET_TP2\UI.Desktop\bin\Debug\UI.Desktop.pdb
+D:\Mis documentos\GitHub\NET_TP2\UI.Desktop\obj\Debug\UI.Desktop.csprojResolveAssemblyReference.cache
+D:\Mis documentos\GitHub\NET_TP2\UI.Desktop\obj\Debug\UI.Desktop.Properties.Resources.resources
+D:\Mis documentos\GitHub\NET_TP2\UI.Desktop\obj\Debug\UI.Desktop.csproj.GenerateResource.Cache
+D:\Mis documentos\GitHub\NET_TP2\UI.Desktop\obj\Debug\UI.Desktop.exe
+D:\Mis documentos\GitHub\NET_TP2\UI.Desktop\obj\Debug\UI.Desktop.pdb
+D:\Mis documentos\GitHub\NET_TP2\UI.Desktop\bin\Debug\Business.Entities.dll
+D:\Mis documentos\GitHub\NET_TP2\UI.Desktop\bin\Debug\Business.Logic.dll
+D:\Mis documentos\GitHub\NET_TP2\UI.Desktop\bin\Debug\Business.Entities.pdb
+D:\Mis documentos\GitHub\NET_TP2\UI.Desktop\bin\Debug\Business.Logic.pdb
+D:\Mis documentos\GitHub\NET_TP2\UI.Desktop\bin\Debug\Data.Database.dll
+D:\Mis documentos\GitHub\NET_TP2\UI.Desktop\bin\Debug\Data.Database.pdb
