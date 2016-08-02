@@ -1,0 +1,5 @@
+D:\Mis documentos\GitHub\NET_TP2\Business.Entities\bin\Debug\Business.Entities.dll
+D:\Mis documentos\GitHub\NET_TP2\Business.Entities\bin\Debug\Business.Entities.pdb
+D:\Mis documentos\GitHub\NET_TP2\Business.Entities\obj\Debug\Business.Entities.csprojResolveAssemblyReference.cache
+D:\Mis documentos\GitHub\NET_TP2\Business.Entities\obj\Debug\Business.Entities.dll
+D:\Mis documentos\GitHub\NET_TP2\Business.Entities\obj\Debug\Business.Entities.pdb

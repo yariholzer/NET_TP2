@@ -1,0 +1,4 @@
+D:\Mis documentos\GitHub\NET_TP2\Util\bin\Debug\Util.dll
+D:\Mis documentos\GitHub\NET_TP2\Util\bin\Debug\Util.pdb
+D:\Mis documentos\GitHub\NET_TP2\Util\obj\Debug\Util.dll
+D:\Mis documentos\GitHub\NET_TP2\Util\obj\Debug\Util.pdb

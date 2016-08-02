@@ -1,0 +1,9 @@
+D:\Mis documentos\GitHub\NET_TP2\Business\bin\Debug\Business.Logic.dll
+D:\Mis documentos\GitHub\NET_TP2\Business\bin\Debug\Business.Logic.pdb
+D:\Mis documentos\GitHub\NET_TP2\Business\obj\Debug\Business.Logic.dll
+D:\Mis documentos\GitHub\NET_TP2\Business\obj\Debug\Business.Logic.pdb
+D:\Mis documentos\GitHub\NET_TP2\Business\obj\Debug\Business.Logic.csprojResolveAssemblyReference.cache
+D:\Mis documentos\GitHub\NET_TP2\Business\bin\Debug\Business.Entities.dll
+D:\Mis documentos\GitHub\NET_TP2\Business\bin\Debug\Data.Database.dll
+D:\Mis documentos\GitHub\NET_TP2\Business\bin\Debug\Business.Entities.pdb
+D:\Mis documentos\GitHub\NET_TP2\Business\bin\Debug\Data.Database.pdb

@@ -1,0 +1,7 @@
+D:\Mis documentos\GitHub\NET_TP2\Data.Database\Data.Database\bin\Debug\Data.Database.dll
+D:\Mis documentos\GitHub\NET_TP2\Data.Database\Data.Database\bin\Debug\Data.Database.pdb
+D:\Mis documentos\GitHub\NET_TP2\Data.Database\Data.Database\bin\Debug\Business.Entities.dll
+D:\Mis documentos\GitHub\NET_TP2\Data.Database\Data.Database\bin\Debug\Business.Entities.pdb
+D:\Mis documentos\GitHub\NET_TP2\Data.Database\Data.Database\obj\Debug\Data.Database.csprojResolveAssemblyReference.cache
+D:\Mis documentos\GitHub\NET_TP2\Data.Database\Data.Database\obj\Debug\Data.Database.dll
+D:\Mis documentos\GitHub\NET_TP2\Data.Database\Data.Database\obj\Debug\Data.Database.pdb

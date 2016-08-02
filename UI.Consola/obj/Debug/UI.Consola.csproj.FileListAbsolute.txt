@@ -1,0 +1,12 @@
+D:\Mis documentos\GitHub\NET_TP2\UI.Consola\bin\Debug\UI.Consola.exe.config
+D:\Mis documentos\GitHub\NET_TP2\UI.Consola\bin\Debug\UI.Consola.exe
+D:\Mis documentos\GitHub\NET_TP2\UI.Consola\bin\Debug\UI.Consola.pdb
+D:\Mis documentos\GitHub\NET_TP2\UI.Consola\bin\Debug\Business.Entities.dll
+D:\Mis documentos\GitHub\NET_TP2\UI.Consola\bin\Debug\Business.Logic.dll
+D:\Mis documentos\GitHub\NET_TP2\UI.Consola\bin\Debug\Business.Entities.pdb
+D:\Mis documentos\GitHub\NET_TP2\UI.Consola\bin\Debug\Business.Logic.pdb
+D:\Mis documentos\GitHub\NET_TP2\UI.Consola\obj\Debug\UI.Consola.exe
+D:\Mis documentos\GitHub\NET_TP2\UI.Consola\obj\Debug\UI.Consola.pdb
+D:\Mis documentos\GitHub\NET_TP2\UI.Consola\obj\Debug\UI.Consola.csprojResolveAssemblyReference.cache
+D:\Mis documentos\GitHub\NET_TP2\UI.Consola\bin\Debug\Data.Database.dll
+D:\Mis documentos\GitHub\NET_TP2\UI.Consola\bin\Debug\Data.Database.pdb
