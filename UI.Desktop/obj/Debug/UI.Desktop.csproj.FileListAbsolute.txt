@@ -15,3 +15,5 @@ D:\Mis documentos\GitHub\NET_TP2\UI.Desktop\bin\Debug\Business.Entities.pdb
 D:\Mis documentos\GitHub\NET_TP2\UI.Desktop\bin\Debug\Business.Logic.pdb
 D:\Mis documentos\GitHub\NET_TP2\UI.Desktop\bin\Debug\Data.Database.dll
 D:\Mis documentos\GitHub\NET_TP2\UI.Desktop\bin\Debug\Data.Database.pdb
+D:\Mis documentos\GitHub\NET_TP2\UI.Desktop\obj\Debug\UI.Desktop.Usuarios.resources
+D:\Mis documentos\GitHub\NET_TP2\UI.Desktop\obj\Debug\UI.Desktop.UsuarioDesktop.resources
