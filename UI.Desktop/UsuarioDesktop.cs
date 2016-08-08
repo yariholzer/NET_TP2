@@ -125,7 +125,44 @@ namespace UI.Desktop
             UsuarioLogic u1 = new UsuarioLogic();
             u1.Save(UsuarioActual);
         }
-        public virtual bool Validar() { return false; } // hacer punto 17 lab 4
+        public virtual bool Validar()
+        {   Boolean bandera = false;
+            if (string.IsNullOrWhiteSpace(txtNombre.Text) || string.IsNullOrWhiteSpace(txtApellido.Text)||string.IsNullOrWhiteSpace(txtEmail.Text)||string.IsNullOrWhiteSpace(txtUsuario.Text)||string.IsNullOrWhiteSpace(txtClave.Text)||string.IsNullOrWhiteSpace(txtConfirmarClave.Text))
+                {
+                    Notificar("Atencion!!","Todos los campos deben ser completados",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                    bandera=false;
+                }else
+                    {
+                        bandera=true;
+                    }
+   
+            if (bandera.Equals(true))
+                {
+                    if(txtClave.Text.Equals(txtConfirmarClave.Text))
+                        {
+                            if(txtClave.Text.Length>=8)
+                                {
+                                    bandera= true;
+                                }else
+                                    {
+                                        Notificar("Atencion!!","La contraseña debe tener al menos 8 caracteres, ingrese nuevamente por favor",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                                        bandera= false;
+                                    }
+                        }else 
+                            {
+                                Notificar("Atencion!!","La contraseña y su confirmacion no son iguales, ingrese nuevamente por favor",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                                    bandera= false;
+                            }
+                }
+            /*if(bandera.Equals(true))
+            {
+                validacion del email
+            }
+            */
+
+            return bandera;
+        }
+ 
         public void Notificar(string titulo, string mensaje, MessageBoxButtons botones, MessageBoxIcon icono)
         {
             MessageBox.Show(mensaje, titulo, botones, icono);
@@ -162,9 +199,9 @@ namespace UI.Desktop
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.chkHabilitado = new System.Windows.Forms.CheckBox();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
@@ -293,15 +330,6 @@ namespace UI.Desktop
             this.label4.TabIndex = 10;
             this.label4.Text = "Clave";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(159, 78);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(81, 13);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "Confirmar Clave";
-            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -319,6 +347,15 @@ namespace UI.Desktop
             this.label7.Size = new System.Drawing.Size(43, 13);
             this.label7.TabIndex = 13;
             this.label7.Text = "Usuario";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(159, 78);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(81, 13);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "Confirmar Clave";
             // 
             // chkHabilitado
             // 
@@ -338,6 +375,7 @@ namespace UI.Desktop
             this.btnAceptar.TabIndex = 15;
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // btnCancelar
             // 
@@ -347,6 +385,7 @@ namespace UI.Desktop
             this.btnCancelar.TabIndex = 16;
             this.btnCancelar.Text = "Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // UsuarioDesktop
             // 
@@ -354,6 +393,7 @@ namespace UI.Desktop
             this.ClientSize = new System.Drawing.Size(363, 141);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "UsuarioDesktop";
+            this.Text = "Usuario";
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel1.PerformLayout();
             this.ResumeLayout(false);

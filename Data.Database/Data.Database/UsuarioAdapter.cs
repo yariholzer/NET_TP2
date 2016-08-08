@@ -9,7 +9,8 @@ namespace Data.Database
 {
     public class UsuarioAdapter:Adapter
     {
-       
+        
+
         public List<Usuario> GetAll()
         {
             List <Usuario> Usuarios = new List<Usuario>();
@@ -63,7 +64,6 @@ namespace Data.Database
                     usr.Nombre = (string)drUsuarios["nombre"];
                     usr.Apellido = (string)drUsuarios["apellido"];
                     usr.EMail = (string)drUsuarios["email"];
-                    Usuarios.Add(usr);
                 }
                 drUsuarios.Close();
                
