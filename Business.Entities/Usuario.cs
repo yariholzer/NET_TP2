@@ -35,7 +35,7 @@ namespace Business.Entities
             get { return apellido; }
             set { apellido = value; }
         }
-        public String Email
+        public String EMail
         {
             get { return email; }
             set { email = value; }

@@ -11,6 +11,11 @@ namespace Business.Logic
     public class UsuarioLogic : BusinessLogic
     {
         public Data.Database.UsuarioAdapter UsuarioData { get; set; }
+        public UsuarioLogic() 
+        {
+            Data.Database.UsuarioAdapter UsuarioData = new Data.Database.UsuarioAdapter();
+
+        }
 
         public List<Usuario> GetAll()
         {
@@ -28,9 +33,6 @@ namespace Business.Logic
         {
             UsuarioData.Save(user);
         }
-        public UsuarioLogic() 
-        {
-            this.UsuarioData =  new  Data.Database.UsuarioAdapter();
-        }
+        
     }
 }
